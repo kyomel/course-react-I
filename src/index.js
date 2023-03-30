@@ -12,7 +12,7 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 function App() {
-    return <h1>{new Date().toLocaleTimeString()}</h1>;
+    return <input style={{ border: '1px solid blue' }}/>;
 }
 
 root.render(<App />)
